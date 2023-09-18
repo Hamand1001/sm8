@@ -31,3 +31,12 @@ const setBg = () => {
 
 let move = document.querySelector('.move')
 move.addEventListener('mousemove', setBg)
+
+let button6 = document.querySelector('.button6')
+button6.addEventListener('dblclick', function(){
+    button6.style.padding = "100px";
+})
+let button7 = document.querySelector('.button7')
+button7.addEventListener('contextmenu', function(){
+    button7.style.margin = "300px";
+})
